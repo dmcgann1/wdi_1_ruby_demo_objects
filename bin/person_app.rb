@@ -15,14 +15,3 @@ puts tom.inspect
 puts "toms full name is #{tom.full_name}"
 
 puts tom.age
-
-msg = tom.give_insurance? ? "should" : 'should not'
-puts "Tom #{msg} get insured"
-
-tom.current_smoker = true
-msg = tom.give_insurance? ? "should" : 'should not'
-puts "Tom #{msg} get insured"
-
-tom.married = true
-msg = tom.give_insurance? ? "should" : 'should not'
-puts "Tom #{msg} get insured"
